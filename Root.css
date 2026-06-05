@@ -75,15 +75,21 @@ nav ul li:not(:hover) {
 }
 
 nav ul li:last-child {
-    position: relative;
-    background-color: var(--bg);
-    text-shadow: 0 0 10px #ffffff;
+    border: solid thin purple;
+    box-shadow: rgba(212, 0, 255, 0.2) 0px 7px 29px 0px;
+    font-weight: 400;
+    background-color: rgb(68, 0, 82);
+
+    transition: .4s;
 }
 
 nav ul li:last-child:hover{
     text-shadow: 0 0 10px #ffffff7e;
-}
+    transform: rotateZ(-5deg);
 
+    
+}
+/*
 @property --angle{
     syntax: "<angle>";
     initial-value: 0deg;
@@ -140,6 +146,7 @@ nav ul li:last-child:hover::after {
     }
     
 }
+*/
 
 
 nav ul li a {

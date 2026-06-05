@@ -30,10 +30,6 @@ main h2 {
     
 }
 
-.moyenContact:hover {
-    transform: scale(0.9);
-}
-
 .moyenContact {
     border-radius: 10px;
     border: solid thin purple;
@@ -47,7 +43,6 @@ main h2 {
     align-items: center;
     justify-content: center;
 
-    transition: .4s;
 }
 
 
