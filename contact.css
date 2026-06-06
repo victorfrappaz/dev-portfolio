@@ -1,3 +1,17 @@
+a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.emailObfusquee {
+    font-size: 0;
+}
+
+.emailObfusquee::before {
+ font-size: 1.4rem;
+ content: attr(data-email-user) "@" attr(data-email-domain);
+}
+
 body nav ul li:nth-child(4) a{
     font-weight: 500;
 }
